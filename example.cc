@@ -10,7 +10,8 @@ void RadixSplineExample() {
   generate(keys.begin(), keys.end(), rand);
   keys.push_back(8128);
   sort(keys.begin(), keys.end());
-  cout << "keys begin: " << keys.size() << endl; 
+  cout << "keys begin: " << keys.front() << endl; 
+  cout << "keys end: " << keys.back() << endl;
   // Build RadixSpline.
   uint64_t min = keys.front();
   uint64_t max = keys.back();
