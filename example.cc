@@ -6,7 +6,8 @@ using namespace std;
 
 void RadixSplineExample() {
   // Create random keys.
-  vector<uint64_t> keys(1e6);
+  // vector<uint64_t> keys(1e6);
+  vector<uint64_t> keys(10);
   generate(keys.begin(), keys.end(), rand);
   keys.push_back(8128);
   sort(keys.begin(), keys.end());
