@@ -10,7 +10,7 @@ A read-only learned index structure that can be built in a single pass over sort
 ```
 mkdir -p build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake3 -DCMAKE_BUILD_TYPE=Release ..
 make
 ./example
 ./tester
